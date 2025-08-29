@@ -1,5 +1,10 @@
-a=int(input())
-b=int(input())
+name=input("input name: ")
 
-sum=a+b
-print(sum)
+match name:
+    case "Hasib" | "Sherhan":
+        print("Personal")
+    case "Rasd":
+        print("Outer")
+    case _:
+        print("Who ?")
+        
